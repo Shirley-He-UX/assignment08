@@ -26,9 +26,18 @@ function draw(){
   if(x>=160){
       x=0;
   }
+  
+  //    
+//    textAlign(CENTER);
+//    textStyle(BOLD);
+//    fill(255);
+//    textSize(12);
+//    text('MOVE YOUR PHONE TO CHANGE THE SIZE',width/2,height*6.1/7);
+//    text('SHAKE YOUR PHONE TO CHANGE THE BACKGROUND',width/2,height*6.4/7);
 }
 function deviceMoved(){
-    x+=4;     
+    x+=4;   
+ 
 }
 
 function deviceShaken() {
